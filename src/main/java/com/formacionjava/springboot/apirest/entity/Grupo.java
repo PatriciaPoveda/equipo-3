@@ -8,6 +8,8 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
+import io.swagger.annotations.ApiModelProperty;
+
 
 @Entity
 @Table(name = "grupos")
@@ -15,7 +17,10 @@ public class Grupo implements Serializable {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	@ApiModelProperty(notes = "ID del grupo", name = "id")
 	private long id;
+	
+	@ApiModelProperty(notes = "Está trabajando", example = "true", required = true, position = 2)
 	@Column(nullable = false)
 	private String nombreGrupo;
 	

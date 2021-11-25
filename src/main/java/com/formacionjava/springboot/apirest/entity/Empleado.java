@@ -9,24 +9,41 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
+import io.swagger.annotations.ApiModelProperty;
+
 @Entity
 @Table(name = "empleados")
 public class Empleado implements Serializable{
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	@ApiModelProperty(notes = "ID del empleado", name = "id")
 	private long id;
+	
+	@ApiModelProperty(notes = "Nombre del empleado", name = "nombre", required = true, example = "Lucía")
 	@Column(nullable = false)
 	private String nombre;
+	
+	@ApiModelProperty(notes = "apellidos del empleado", name = "apellidos", required = true, example = "Perez")
 	@Column(nullable = false)
 	private String apellidos;
+	
+	@ApiModelProperty(notes = "Correo electrónico del empleado", name = "email", required = true, example = "lucía@capgemini.com")
 	@Column(nullable = false, unique = true)
 	private String email;
+	
+	@ApiModelProperty(notes = "Teléfono de contacto", name = "telefono", example = "666339922")
 	@Column(unique = true)
 	private String telefono;
+	
+	@ApiModelProperty(notes = "área de departamento", name = "departamento", example = "Backend")
 	@Column(name = "area_dep")
 	private String area_dep;
+	
+	@ApiModelProperty(notes = "cargo que tiene", name = "cargo", example = "junior")
 	@Column(name = "cargo")
 	private String cargo;
+	
+	@ApiModelProperty(notes = "Está trabajando", example = "true", required = true, position = 1)
 	@Column(name = "activado")
 	private Boolean activado;
 	

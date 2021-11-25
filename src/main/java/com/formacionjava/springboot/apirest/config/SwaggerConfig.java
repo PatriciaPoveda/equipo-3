@@ -27,7 +27,7 @@ public class SwaggerConfig {
 	.build();
 	}
 
-	private ApiInfo getApiInfo() {
+	/*private ApiInfo getApiInfo() {
 		return new ApiInfo(
 				"Team III",
 				"Ejercicio empleados",
@@ -36,7 +36,7 @@ public class SwaggerConfig {
 				new Contact("Codmind", "https://capgemini.com", "patricia.poveda-boto@capgemini.com"),
 				"LICENSE",
 				"LICENSE URL",
-				Collections.emptyList()
-				);
+				Collections.emptyList()*/
+				//);
 	}
-}
+
