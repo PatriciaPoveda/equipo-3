@@ -23,6 +23,7 @@ public class EmpleadoRestController {
 
 	@Autowired
 	private ServiceEmpleado serviceEmpleado;
+	
 	//MOSTRAR TODOS LOS EMPLEADOS
 	@GetMapping("/empleados")
 	public List<Empleado> index() {
