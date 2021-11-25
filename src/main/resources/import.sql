@@ -12,3 +12,9 @@ insert into empleados (id, nombre, apellidos, email, telefono, area_dep, cargo, 
 insert into empleados (id, nombre, apellidos, email, telefono, area_dep, cargo, activo) values (12, 'Mayne', 'Vela', 'mvelab@kickstarter.com', 632555944, 'Accounting', 'Junior Executive', false);
 insert into empleados (id, nombre, apellidos, email, telefono, area_dep, cargo, activo) values (13, 'Odele', 'Sherrington', 'osherringtonc@flickr.com', 944181822, 'Services', 'Information Systems Manager', true);
 insert into empleados (id, nombre, apellidos, email, telefono, area_dep, cargo, activo) values (14, 'Morlee', 'Beaudry', 'mbeaudryd@usda.gov', 098791944, 'Training', 'Senior Developer', true);
+insert into grupos (id,nombre) values (1, 'front_developers');
+insert into grupos (id,nombre) values (1, 'back-developers');
+insert into proyectos (id,nombre) values (1, 'Proyecto Microsoft');
+insert into proyectos (id,nombre) values (1, 'Proyecto IBM');
+insert into proyectos (id,nombre) values (1, 'Proyecto Movistar');
+insert into proyectos (id,nombre) values (1, 'Proyecto Realmadrid FC');
