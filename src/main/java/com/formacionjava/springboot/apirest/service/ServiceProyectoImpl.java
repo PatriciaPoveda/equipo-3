@@ -24,4 +24,9 @@ public class ServiceProyectoImpl implements ServiceProyecto {
 		return (List<Proyecto>) proyectoDao.findAll();
 	}
 
+	@Override
+	public Proyecto findById(Long id) {
+		return proyectoDao.findById(id).orElse(null);
+	}
+
 }
