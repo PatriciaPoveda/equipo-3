@@ -52,8 +52,8 @@ public class Empleado implements Serializable{
 	private String cargo;
 	
 	@ApiModelProperty(notes = "Está trabajando", example = "true", required = true, position = 1)
-	@Column(name = "activado")
-	private Boolean activado;
+	@Column(name = "activo")
+	private Boolean activo;
 	
 	//GETTERS Y SETTERS
 	public long getId() {
@@ -98,11 +98,11 @@ public class Empleado implements Serializable{
 	public void setCargo(String cargo) {
 		this.cargo = cargo;
 	}
-	public Boolean getActivado() {
-		return activado;
+	public Boolean getActivo() {
+		return activo;
 	}
-	public void setActivado(Boolean activado) {
-		this.activado = activado;
+	public void setActivo(Boolean activo) {
+		this.activo = activo;
 	}
 
 	
