@@ -16,9 +16,10 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.formacionjava.springboot.apirest.entity.Grupo;
+
 import com.formacionjava.springboot.apirest.entity.Proyecto;
 import com.formacionjava.springboot.apirest.service.ServiceProyecto;
+
 
 @RestController
 @RequestMapping("/team3")
