@@ -27,16 +27,16 @@ public class SwaggerConfig {
 	.build();
 	}
 
-	private ApiInfo getApiInfo() {
-		return new ApiInfo(
-				"Team III",
-				"Ejercicio empleados",
-				"1.0",
-				"http://capgemini.com",
-				new Contact("Codmind", "https://capgemini.com", "patricia.poveda-boto@capgemini.com"),
-				"LICENSE",
-				"LICENSE URL",
-				Collections.emptyList()
-				);
-	}
+//	private ApiInfo getApiInfo() {
+//		return new ApiInfo(
+//				"Team III",
+//				"Ejercicio empleados",
+//				"1.0",
+//				"http://capgemini.com",
+//				new Contact("Codmind", "https://capgemini.com", "patricia.poveda-boto@capgemini.com"),
+//				"LICENSE",
+//				"LICENSE URL",
+//				Collections.emptyList()
+//				);
+//	}
 }
