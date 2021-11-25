@@ -1,0 +1,14 @@
+insert into empleados (id, nombre, apellidos, email, telefono, area_dep, cargo, activo) values (1, 'Alecia', 'Snufflebottom', 'asnufflebottom0@cam.ac.uk', 193029944, 'Services', 'Accountant I', true);
+insert into empleados (id, nombre, apellidos, email, telefono, area_dep, cargo, activo) values (2, 'Brennan', 'Veschambre', 'bveschambre1@patch.com', 9966234944, 'Marketing', 'Executive Secretary', true);
+insert into empleados (id, nombre, apellidos, email, telefono, area_dep, cargo, activo) values (3, 'Westbrooke', 'Josum', 'wjosum2@hubpages.com', 258966944, 'Support', 'Quality Control Specialist', true);
+insert into empleados (id, nombre, apellidos, email, telefono, area_dep, cargo, activo) values (4, 'Giordano', 'Bilton', 'gbilton3@icq.com', 553891944, 'Legal', 'Project Manager', false);
+insert into empleados (id, nombre, apellidos, email, telefono, area_dep, cargo, activo) values (5, 'Nevins', 'Godthaab', 'ngodthaab4@alibaba.com', 916916944, 'Support', 'Office Assistant I', true);
+insert into empleados (id, nombre, apellidos, email, telefono, area_dep, cargo, activo) values (6, 'Burnard', 'Moorman', 'bmoorman5@chicagotribune.com', 944763082, 'Accounting', 'Staff Accountant III', false);
+insert into empleados (id, nombre, apellidos, email, telefono, area_dep, cargo, activo) values (7, 'Reilly', 'Skiplorne', 'rskiplorne6@scientificamerican.com', 944847216, 'Product Management', 'VP Sales', false);
+insert into empleados (id, nombre, apellidos, email, telefono, area_dep, cargo, activo) values (8, 'Isador', 'Milnthorpe', 'imilnthorpe7@simplemachines.org', 271866294, 'Legal', 'Software Test Engineer IV', true);
+insert into empleados (id, nombre, apellidos, email, telefono, area_dep, cargo, activo) values (9, 'Betteanne', 'Fancy', 'bfancy8@unc.edu', 582517944, 'Support', 'Tax Accountant', false);
+insert into empleados (id, nombre, apellidos, email, telefono, area_dep, cargo, activo) values (10, 'Shell', 'Lyall', 'slyall9@list-manage.com', 944997487, 'Business Development', 'Occupational Therapist', false);
+insert into empleados (id, nombre, apellidos, email, telefono, area_dep, cargo, activo) values (11, 'Seamus', 'Villalta', 'svillaltaa@deviantart.com', '(465) 6951168', 'Engineering', 'Sales Associate', true);
+insert into empleados (id, nombre, apellidos, email, telefono, area_dep, cargo, activo) values (12, 'Mayne', 'Vela', 'mvelab@kickstarter.com', 632555944, 'Accounting', 'Junior Executive', false);
+insert into empleados (id, nombre, apellidos, email, telefono, area_dep, cargo, activo) values (13, 'Odele', 'Sherrington', 'osherringtonc@flickr.com', 944181822, 'Services', 'Information Systems Manager', true);
+insert into empleados (id, nombre, apellidos, email, telefono, area_dep, cargo, activo) values (14, 'Morlee', 'Beaudry', 'mbeaudryd@usda.gov', 098791944, 'Training', 'Senior Developer', true);
