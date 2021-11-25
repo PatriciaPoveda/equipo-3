@@ -12,14 +12,13 @@ import javax.persistence.Table;
 
 import io.swagger.annotations.ApiModelProperty;
 
-<<<<<<< HEAD
+
 
 
 //Añadir anotaciones de swagger
 
-=======
 
->>>>>>> 1de8285c578c331e5812b3ee7f9f88adaceee64b
+
 @Entity
 @Table(name = "empleados")
 public class Empleado implements Serializable{
