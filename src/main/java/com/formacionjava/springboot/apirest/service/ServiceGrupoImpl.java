@@ -23,4 +23,9 @@ public class ServiceGrupoImpl implements ServiceGrupo {
 	public Grupo save(Grupo grupo) {
 		return grupoDao.save(grupo);
 	}
+
+	@Override
+	public Grupo findById(Long id) {
+		return grupoDao.findById(id).orElse(null);
+	}
 }
